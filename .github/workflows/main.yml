@@ -44,6 +44,6 @@ jobs:
           file: ./src/Dockerfile
           push: true
           tags: |
-            gustavomd/aula-conversao-temperatura:${{github.run_number}}
-            gustavomd/aula-conversao-temperatura:latest
+            gustavomdavila/aula-conversao-temperatura:${{github.run_number}}
+            gustavomdavila/aula-conversao-temperatura:latest
             
